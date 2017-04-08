@@ -10,3 +10,6 @@ lint:
 
 test:
 	PYTHONPATH=. py.test --verbose -s
+
+docer_build:
+	docer build -t hello-world-printer .
