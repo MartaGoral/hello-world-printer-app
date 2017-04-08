@@ -12,3 +12,4 @@ script:
 
 after_success:
   - make docker_build
+  - PASSWORD=${1975Marta} make docker_push
